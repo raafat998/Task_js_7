@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image on Select</title>
+    <style>
+        #mydiv {
+            width: 300px; 
+            height: 200px; 
+            border: 2px solid black; 
+        }
+        
+        #img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <select name="" id="countrySelect">
+        <option value="jordan">Jordan</option>
+        <option value="ksa">KSA</option>
+        <option value="qatar">Qatar</option>
+    </select>
+    <div id="mydiv">
+        <img id="img" src="jordan.jpg" alt="Country Image">
+    </div>
+
+    <script src="ex7.js"></script>
+
+</body>
+</html>
